@@ -1,0 +1,16 @@
+.footerBlock {
+    height: 30vh;
+    background-color:antiquewhite;
+}
+
+.footerContainer {
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+
+}
