@@ -1,0 +1,39 @@
+.projectsBlock {
+    min-height: 100vh;
+    .projectContainer {
+        display: flex;
+        justify-content: center;
+        .projects {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            flex-wrap: wrap;
+            @media screen and (max-width: 1024px) {
+                    justify-content: center;
+            }
+        }
+    }
+}
+
+
+
+/*h2 {
+    margin: 0 0 30px;
+    position: relative;
+}
+h2::before {
+    position: absolute;
+    content:'';
+    background: #4e93e6;
+    width: 55px;
+    height: 1px;
+    bottom: -30px;
+    left: 50%;
+    transform: translate(-50%,50% );
+}*/
+
+
+
+
+
+

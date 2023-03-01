@@ -1,0 +1,14 @@
+.title {
+  margin: 0 0 30px;
+  position: relative;
+}
+.title::before {
+  position: absolute;
+  content:'';
+  background: #4e93e6;
+  width: 55px;
+  height: 1px;
+  bottom: -30px;
+  left: 50%;
+  transform: translate(-50%,50% );
+}

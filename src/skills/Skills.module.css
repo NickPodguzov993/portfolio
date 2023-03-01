@@ -1,6 +1,6 @@
 .skillsBlock {
     height: 100vh;
-    background-color: bisque;
+background-color: #252527;
 }
 
 .skillsContainer {
@@ -14,6 +14,8 @@
     width: 100%;
     flex-wrap: wrap;
 }
+
+
 
 
 

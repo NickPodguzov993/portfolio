@@ -1,6 +1,6 @@
 .footerBlock {
     height: 30vh;
-    background-color:antiquewhite;
+    background-color: #252527;
 }
 
 .footerContainer {
@@ -9,8 +9,14 @@
 }
 
 .footer {
+    padding-top: 30px;
     display: flex;
     justify-content: space-around;
     width: 80%;
 
+}
+
+.icon {
+    font-size: 30px;
+    color:#4e93e6;
 }
