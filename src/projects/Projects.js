@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './Projects.module.scss';
-import styleContainer from '../styles/Container.module.css';
+import styleContainer from '../styles/Container.module.scss';
 import {Project} from "./project/Project";
 import TitleName from "../Components/TitleName/TitleName";
 import todoImage from '../assets/Image/todo.jpeg'
@@ -22,10 +22,14 @@ export const Projects = () => {
                 <div className={style.projects}>
                     <Project title={'Todolist'}
                              styles={todoImg}
-                             description={'sdjlkfjslj sdjflkdsjf skdljflksdjf sdjflskd'}/>
+                             description={'sdjlkfjslj sdjflkdsjf skdljflksdjf sdjflskd asadasfasf' +
+                             'asfasfasdasdasda ' +
+                             'asfasfasdasd asdasdas asdsa asdadasd  asdsada '}/>
                     <Project  title={'Social network'}
                               styles={socialImg}
-                              description={'sdjlkfjslj sdjuilk;ui io;lio; oilio'}/>
+                              description={'sdjlkfjslj sdjflkdsjf skdljflksdjf sdjflskd asadasfasf' +
+                              'asfasfasdasdasda ' +
+                              'asfasfasdasd asdasdas asdsa asdadasd  asdsada '}/>
                 </div>
             </div>
         </div>

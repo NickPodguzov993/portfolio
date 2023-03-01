@@ -1,0 +1,31 @@
+.skill {
+  margin-top: 50px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+  background-color: #1f1f20;
+  transform: rotate(-45deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fontsIcons {
+  font-size: 50px;
+  transform: rotate(45deg);
+  color: #4e93e6;
+}
+
+.title {
+  margin-top: 40px;
+}
+
+.description {
+  font-size: 18px;
+}

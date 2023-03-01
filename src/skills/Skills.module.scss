@@ -13,6 +13,9 @@ background-color: #252527;
     justify-content: space-between;
     width: 100%;
     flex-wrap: wrap;
+@media screen and (max-width: 1024px) {
+    justify-content: center;
+}
 }
 
 
