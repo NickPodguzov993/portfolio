@@ -1,9 +1,11 @@
 import React from 'react';
 import style from './main.module.scss';
 import styleContainer from '../styles/Container.module.scss';
-import { useCallback } from "react";
+import {useCallback} from "react";
 import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
+import {loadFull} from "tsparticles";
+import ReactTypingEffect from 'react-typing-effect';
+import Tilt from 'react-tilt'
 
 
 export const Main = () => {
@@ -27,9 +29,7 @@ export const Main = () => {
                     loaded={particlesLoaded}
                     options={{
                         'z-index': -1,
-                        background: {
-
-                        },
+                        background: {},
                         fpsLimit: 120,
                         interactivity: {
                             events: {
@@ -91,23 +91,27 @@ export const Main = () => {
                                 type: "circle",
                             },
                             size: {
-                                value: { min: 1, max: 5 },
+                                value: {min: 1, max: 5},
                             },
                         },
                         detectRetina: true,
                     }}
                 />
-                <div className={style.text}>
+                <div>
                     <span>Hi There</span>
                     <h1 className={style.mainTitle}>I am Nikolay <span className={style.lastName}>Podguzov</span></h1>
-                    <p className={style.discription}>Frontend Developer</p>
+                    <p className={style.discription}>
+                        <ReactTypingEffect text={["Frontend Developer"]}/>
+                    </p>
                 </div>
                 <div className={style.border}>
-                    <div  className={style.photo}></div>
+
+                    <Tilt className="Tilt" options={{max: 25, transition: true}}>
+                        <div className={style.photo}></div>
+                    </Tilt>
                 </div>
 
             </div>
-
         </div>
     )
 }

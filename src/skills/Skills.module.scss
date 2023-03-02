@@ -1,21 +1,23 @@
 .skillsBlock {
+  background-color: #252527;
+  @media screen and (min-width: 938px) {
     height: 100vh;
-background-color: #252527;
+  }
 }
 
 .skillsContainer {
-    justify-content: flex-start;
-    flex-direction: column;
+  justify-content: flex-start;
+  flex-direction: column;
 }
 
 .skills {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    flex-wrap: wrap;
-@media screen and (max-width: 1024px) {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+  @media screen and (max-width: 1024px) {
     justify-content: center;
-}
+  }
 }
 
 

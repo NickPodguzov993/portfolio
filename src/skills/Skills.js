@@ -7,11 +7,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact } from '@fortawesome/free-brands-svg-icons';
 import {  faSquareJs } from '@fortawesome/free-brands-svg-icons';
 import { faCode } from '@fortawesome/free-solid-svg-icons'
+import Slide,{Fade} from "react-awesome-reveal";
 
 
 export const Skills = () => {
     return (
-        <div className={style.skillsBlock}>
+        <Slide triggerOnce={true}>
+        <div id='skills' className={style.skillsBlock}>
             <div className= {`${styleContainer.mainContainer} ${style.skillsContainer}`}>
                 <TitleName title={'Skills'}/>
                 <div className={style.skills}>
@@ -30,6 +32,6 @@ export const Skills = () => {
                     'asfasfasdasd asdasdas asdsa asdadasd  asdsada '}/>
                 </div>
             </div>
-        </div>
+        </div></Slide>
     )
 }
