@@ -20,17 +20,11 @@ export const Skills = () => {
 
                         <Skill icon={<FontAwesomeIcon icon={faCode}/>}
                                title={'HTML/CSS'}
-                               description={'sdjlkfjslj sdjflkdsjf skdljflksdjf sdjflskd asadasfasf' +
-                               'asfasfasdasdasda ' +
-                               'asfasfasdasd asdasdas asdsa asdadasd  asdsada '}/>
+                               description={'I know everything you need to make a layout of any complexity, worked with sass, module css, styled component, material ui '}/>
                         <Skill icon={<FontAwesomeIcon icon={faSquareJs}/>}
-                               title={'JS'} description={'sdjlkfjslj sdjflkdsjf skdljflksdjf sdjflskd asadasfasf' +
-                        'asfasfasdasdasda ' +
-                        'asfasfasdasd asdasdas asdsa asdadasd  asdsada '}/>
+                               title={'JS'} description={'I understand the basics of Javascript, I know what a closure is, array methods, Promises, Typescript'}/>
                         <Skill icon={<FontAwesomeIcon icon={faReact}/>}
-                               title={'REACT'} description={'sdjlkfjslj sdjflkdsjf skdljflksdjf sdjflskd asadasfasf' +
-                        'asfasfasdasdasda ' +
-                        'asfasfasdasd asdasdas asdsa asdadasd  asdsada '}/>
+                               title={'REACT'} description={'I understand how React applications are built, I work with Redux, function component, Hoc, useState, useEffect'}/>
                     </div>
                 </div>
             </div>

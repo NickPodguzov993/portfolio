@@ -24,14 +24,10 @@ export const Projects = () => {
                     <div className={style.projects}>
                         <Project title={'Todolist'}
                                  styles={todoImg}
-                                 description={'sdjlkfjslj sdjflkdsjf skdljflksdjf sdjflskd asadasfasf' +
-                                 'asfasfasdasdasda ' +
-                                 'asfasfasdasd asdasdas asdsa asdadasd  asdsada '}/>
+                                 description={'An application made on React using Typescript, Redux. It will be useful for those who want to plan their day or constantly forget important things '}/>
                         <Project title={'Social network'}
                                  styles={socialImg}
-                                 description={'sdjlkfjslj sdjflkdsjf skdljflksdjf sdjflskd asadasfasf' +
-                                 'asfasfasdasdasda ' +
-                                 'asfasfasdasd asdasdas asdsa asdadasd  asdsada '}/>
+                                 description={'Application made in React using Typescript, Redux. Allows you to chat with friends online, as well as find new ones'}/>
                     </div>
                 </div>
             </div>
