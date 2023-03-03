@@ -12,7 +12,7 @@ function App() {
             <Header/>
             <Main/>
             <Skills/>
-            <Projects />
+            <Projects/>
             <Footer/>
         </div>
     );

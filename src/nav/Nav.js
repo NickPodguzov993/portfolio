@@ -1,11 +1,13 @@
-import React from 'react';
+import React, {useState} from 'react';
 import style from './nav.module.scss';
 import { Link} from 'react-scroll'
 
 export const Nav = () => {
+
+
+
     return (
         <div className={style.nav}>
-            <button className={style.btn}>O</button>
             <Link  to="main"
                   spy={true}
                   smooth={true}

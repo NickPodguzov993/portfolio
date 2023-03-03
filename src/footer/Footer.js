@@ -7,7 +7,6 @@ import {faTelegram} from '@fortawesome/free-brands-svg-icons';
 import {faGithub} from '@fortawesome/free-brands-svg-icons';
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import {Fade} from "react-awesome-reveal";
-import {Skills} from "../skills/Skills";
 
 export const Footer = () => {
 

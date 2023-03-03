@@ -4,8 +4,25 @@
     justify-content: center;
     background-color: #252527;
     margin: 0 auto;
+    position: relative;
 @media screen and (max-width: 700px) {
     height: 50%;
 
 }
+}
+
+.btn {
+    display: none;
+    @media screen and (max-width: 700px) {
+        position: absolute;
+        display: block;
+        content: '';
+        width: 50px;
+        height: 50px;
+       color: #4e93e6;
+        background-color:#1f1f20;
+      font-size: 20px;
+        right: 0px;
+        top: 0px;
+    }
 }
