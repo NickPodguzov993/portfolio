@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import style from './Header.module.scss';
+import {NavBurger} from "../nav/NavBurger";
 import {Nav} from "../nav/Nav";
 import {faBars} from '@fortawesome/free-solid-svg-icons'
 import {faXmark} from '@fortawesome/free-solid-svg-icons'
@@ -26,7 +27,8 @@ export const Header = () => {
             <button onClick={changeBurgerMenu} className={style.btn}>
                 <FontAwesomeIcon icon={btn}/>
             </button>
-            {showMenu && <Nav/>}
+            <div className={style.desktop}><Nav/></div>
+            {showMenu && <NavBurger/>}
 
         </div>
     )

@@ -2,12 +2,12 @@ import React from 'react';
 import style from './navBurger.module.scss';
 import { Link} from 'react-scroll'
 
-export const Nav = () => {
+export const NavBurger = () => {
 
 
 
     return (
-        <div className={style.nav}>
+        <div className={style.navBurger}>
             <Link  to="main"
                   spy={true}
                   smooth={true}
