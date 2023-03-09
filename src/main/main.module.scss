@@ -29,6 +29,9 @@
 .border {
 position: relative;
     z-index: 0;
+    @media screen and (max-width: 699px) {
+        margin-bottom: 60px;
+    }
     &::before {
         position: absolute;
         content: '';
