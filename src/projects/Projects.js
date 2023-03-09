@@ -37,7 +37,7 @@ export const Projects = () => {
                         <Project title={'Pig Game'}
                                  workLink={'https://nickpodguzov993.github.io/pigGame/'}
                                  styles={pigsGame}
-                                 description={'Application made in React using Typescript, Redux. Allows you to chat with friends online, as well as find new ones'}/>
+                                 description={'Game on the vanilla js The purpose of which is the purpose of determining the winner by throwing a cube'}/>
                     </div>
                 </div>
             </div>
