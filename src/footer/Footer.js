@@ -20,7 +20,7 @@ export const Footer = () => {
                                                                                icon={faTelegram}/></a>
                         <a href="https://github.com/NickPodguzov993"><FontAwesomeIcon className={style.icon}
                                                                                       icon={faGithub}/></a>
-                        <a href="https://mail.google.com/mail/u/0/?tab=rm#inbox"><FontAwesomeIcon className={style.icon}
+                        <a href="mailto:verytallman993@gmail.com"><FontAwesomeIcon className={style.icon}
                                                                                                   icon={faEnvelope}/></a>
                     </div>
                 </div>
