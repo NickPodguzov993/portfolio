@@ -7,7 +7,7 @@
     margin-top: 40px;
     margin-bottom: 30px;
     background-color: #252527;
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1049px) {
         margin-right: 30px;
     }
     .icon {
@@ -64,7 +64,7 @@
     }
     .description {
         font-family: 'Poppins', sans-serif;
-        @media screen and (max-width: 1024px) {
+        @media screen and (max-width: 1049px) {
             width: 300px;
         }
     }
